@@ -1,0 +1,187 @@
+.parent-page{
+    padding: 20px 5px;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* padding-top: 30px; */
+    text-align: center;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+}
+.page img{
+    width: 300px;
+    height: 300px;
+    padding-top: 100px;
+}
+.page-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.learn{
+ color: rgb(100, 100, 100);
+ border: 3px solid maroon;
+ padding: 10px 20px;
+ width: 81%;
+  font-size: 20px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.9s ease-in-out;
+}
+.learn:hover{
+background-color: maroon;
+border: none;
+color: white;
+}
+.sub-page{
+font-weight: bold;
+font-size: 20px;
+}
+.page-text h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.school{
+    color: maroon;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.group-button{
+    display: flex;
+    justify-content: center;
+     gap: 20px;
+    padding: 40px 0px; 
+}
+.group-button button{
+    border: none;
+    padding: 10px;
+    
+}
+.btn-one{
+    background-color: maroon;
+    color: white;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+.btn-two{
+    background-color: gold;
+    color: white;
+    transform: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+.btn-three{
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+.btn-one:hover{
+    background-color: navy;
+}
+.btn-two:hover{
+    background-color: green;
+}
+.btn-three:hover{
+    background-color: hotpink;
+}
+
+.ourorg{
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom,rgba(201, 70, 70, 0.9),rgba(218, 168, 176, 0.9), rgba(42, 121, 42, 0.9));
+}
+.ourorg img{
+    width: 300px;
+    height: 200px;
+}
+.student{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.ourorg h1{
+    display:flex;
+    justify-content: center;
+    gap: 7px;
+    font-size: 30px;
+    padding: 30px 0px;
+}
+.cat{
+    color: maroon;
+}
+.struggling,.intermediate,.highfliers{
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.orgimage:hover,.h:hover{
+    margin: 30px;
+    transition: all 0.9s ease-in-out;
+    scale: 1.2;
+    
+}
+.org{
+    width: 230px;
+    border: 3px solid maroon;
+    background-color: white;
+    color: maroon;
+    padding: 10px 0px;    
+}
+.org:hover{
+    background-color: maroon;
+    color: white;
+}
+.student p{
+    height: 130px;
+}
+
+@media screen and (min-width:768px) {
+    .ourorg{
+        background: linear-gradient(to right,rgba(201, 70, 70,0.9),rgba(228, 204, 208, 0.9),rgba(42, 121, 42,0.9))
+    }
+    .ourorg h1{
+        font-size: 60px;
+    }
+    .page{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 120px;
+        text-align: left;
+    }
+    .learn{
+        margin-left: 115px;
+    }
+    .page-text h1{
+        font-size: 55px;
+    }
+    .page-text{
+        
+    }
+    .sub-page{
+        margin-left: 300px;
+        color: maroon;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .page img{
+        width: 45%;
+        height: 45%;
+    }
+    .group-button button{
+        border: none;
+        padding: 10px;
+        width: 300px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    
+}
