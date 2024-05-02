@@ -1,0 +1,11 @@
+.container{
+    background-image: url(../image/alumni5.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-one{
+    width: 350px;
+    height: 400px;
+    background-color: blueviolet;
+}
